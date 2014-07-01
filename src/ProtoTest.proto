@@ -1,0 +1,21 @@
+package ProtobufTest;
+
+message TestMessage {
+  required string clientName = 1;
+  required int32 clientId = 2;
+  optional string description = 3 [default = "NONE"];
+  repeated MsgItem messageitems = 4;
+
+  enum ItemType {
+    TypeX = 0;
+    TypeY = 1;
+    TypeZ = 2;
+  }
+
+   message MsgItem {
+    required int32 id = 1;
+    optional string itemName = 2;
+    optional int32 itemValue = 3;
+    optional ItemType itemType = 4;
+   }
+}
