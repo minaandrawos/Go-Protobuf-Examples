@@ -1,7 +1,7 @@
 Go-Protobuf-Examples
 ====================
 
-Protobuf server and client in Go  
+A protocol buffer (Protobuf) server and client in Go (Golang)
 
 I wrote this code as part of a tutorial I am currently working on how to practically use Protocol buffer in Go (Golang), the code is organized as follows:  
 
