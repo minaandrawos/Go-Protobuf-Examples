@@ -3,7 +3,9 @@ Go-Protobuf-Examples
 
 A protocol buffer (Protobuf) server and client in Go (Golang)
 
-I wrote this code as part of a tutorial I am currently working on how to practically use Protocol buffer in Go (Golang), the code is organized as follows:  
+A detailed tutorial can be found at: www.minaandrawos.com/2014/05/27/practical-guide-protocol-buffers-protobuf-go-golang/ 
+
+I wrote this code as part of a tutorial on how to practically use Protocol buffer in Go (Golang), the code is organized as follows:  
 
 1. /src/GoProtoClient --> The Golang Protobuf client code
 2. /src/GoProtoServer --> The Golang Protobuf server code
